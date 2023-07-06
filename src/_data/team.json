@@ -1,0 +1,119 @@
+{
+  "title": "team that makes the difference.",
+  "teamMembers":[
+    {
+      "name": "Robin Burke",
+      "dig": "University of Colorado Boulder",
+      "img": "",
+      "social":[
+        {
+          "icon": "medium",
+          "link": "#"
+        },
+        {
+          "icon": "linkedin",
+          "link": "#"
+        },
+        {
+          "icon": "instagram",
+          "link": "#"
+        }
+      ]
+    },
+    {
+      "name": "Michael Ekstrand",
+      "dig": "Boise State University",
+      "img": "",
+      "social":[
+        {
+          "icon": "medium",
+          "link": "#"
+        },
+        {
+          "icon": "linkedin",
+          "link": "#"
+        },
+        {
+          "icon": "instagram",
+          "link": "#"
+        }
+      ]
+    },
+    {
+      "name": "Daniel Kluver",
+      "dig": "University of Minnesota",
+      "img": "",
+      "social":[
+        {
+          "icon": "medium",
+          "link": "#"
+        },
+        {
+          "icon": "linkedin",
+          "link": "#"
+        },
+        {
+          "icon": "instagram",
+          "link": "#"
+        }
+      ]
+    },
+    {
+      "name": "Bart Knijnenburg",
+      "dig": "Clemson University",
+      "img": "",
+      "social":[
+        {
+          "icon": "medium",
+          "link": "#"
+        },
+        {
+          "icon": "linkedin",
+          "link": "#"
+        },
+        {
+          "icon": "instagram",
+          "link": "#"
+        }
+      ]
+    },
+    {
+      "name": "Joseph Konstan",
+      "dig": "University of Minnesota",
+      "img": "",
+      "social":[
+        {
+          "icon": "medium",
+          "link": "#"
+        },
+        {
+          "icon": "linkedin",
+          "link": "#"
+        },
+        {
+          "icon": "instagram",
+          "link": "#"
+        }
+      ]
+    },
+    {
+      "name": "Edward Malthouse",
+      "dig": "Northwestern University",
+      "img": "",
+      "social":[
+        {
+          "icon": "medium",
+          "link": "#"
+        },
+        {
+          "icon": "linkedin",
+          "link": "#"
+        },
+        {
+          "icon": "instagram",
+          "link": "#"
+        }
+      ]
+    }
+  ]
+}
