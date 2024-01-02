@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <meta charset="utf-8" />
+    <title>POPROX</title>
+    <meta name="generator" content="Eleventy">
+    <!--Meta For No Index-->
+    <meta name="robots" content="noindex, Nofollow, Noimageindex">
+
+    <!-- mobile responsive meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+
+    <!-- Slick Carousel -->
+    <link rel="stylesheet" href="/assets/vendor/slick/slick.css" />
+    <link rel="stylesheet" href="/assets/vendor/slick/slick-theme.css" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="/assets/vendor/font-awesome/css/font-awesome.min.css"
+    />
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="/assets/vendor/bootstrap/bootstrap.min.css" />
+    <!-- Stylesheets -->
+    <link href="/assets/css/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+  {% block navbar %}
+    <nav class="navbar navbar-expand-lg site-navigation">
+      <div class="container">
+        <a class="navbar-brand" href="/">
+          <img src="{{nav.navLogo}}" alt="nav-logo" />
+        </a>
+        <button
+          class="navbar-toggler collapsed"
+          type="button"
+          data-toggle="collapse"
+          data-target="#sitenavbar"
+        >
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="sitenavbar">
+          <ul class="navbar-nav ml-auto main-nav">
+            {% for navLink in nav.navLinks %}
+            <li class="nav-item">
+              {% if navLink == "home" %}
+                <a class="nav-link" href="/">{{navLink | capitalize}}</a>
+              {% else %}
+                <a class="nav-link" href="/{{navLink}}">{{navLink | capitalize}}</a> 
+              {% endif %} 
+            </li>
+            {% endfor %}
+            <li class="nav-item">
+              <a class="nav-link btn btn-sm btn-primary btn-sm-rounded" href="/{{nav.navBtnLink}}">
+                <span class="btn-area">
+                  <span data-text="{{nav.navBtnText}}">
+                    {{nav.navBtnText}}
+                  </span>
+                </span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  {% endblock %}
+
+  {% block content %}
+    {{content | safe}}
+  {% endblock %}
+
+  {% block workTogether %}
+    <section class="site-cta">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h1 class="site-cta-title">{{workTogether.heading}}</h1>
+            <ul class="site-cta-buttons">
+              <li>
+                <a href="{{workTogether.submitBtn.btnLink}}" class="btn btn-secondary">
+                  <span class="btn-area">
+                    <span data-text="{{workTogether.submitBtn.btnText}}">
+                      {{workTogether.submitBtn.btnText}}
+                    </span>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="/{{workTogether.convBtn.btnLink}}" class="btn btn-primary">
+                  <span class="btn-area">
+                    <span data-text="{{workTogether.convBtn.btnText}}">
+                      {{workTogether.convBtn.btnText}}
+                    </span>
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  {% endblock %}
+
+  {% block footer %}
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-10">
+            <div class="site-footer-logo">
+              <a href="/">
+                <img src="{{footer.footerLogo}}" alt="logo-footer">
+              </a>
+            </div>
+          </div>
+          <div class="col-2">
+            <a href="#top" class="site-footer-widget-top">
+              <img src="{{footer.back2topIcon}}" alt="back-to-top">
+              <p>
+                {{footer.customerComment}}
+              </p>
+            </a>
+          </div>
+          <div class="col-12">
+            <div class="site-footer-copyright text-center my-3">
+              <p>© Copyright 2023 - All Rights Reserved by <a href="https://poprox.ai/" target="_blank">POPROX</a> </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  {% endblock %}
+    <!-- <script src="js/vendor.js"></script> -->
+    <script src="/assets/vendor/jQuery/jquery.min.js"></script>
+    <script src="/assets/vendor/bootstrap/bootstrap.min.js"></script>
+    <script src="/assets/js/script.js"></script>
+  </body>
+</html>
+

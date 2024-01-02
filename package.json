@@ -2,7 +2,7 @@
   "name": "poprox.news",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": ".eleventy.js",
   "scripts": {
     "serve": "npx @11ty/eleventy --serve"
   },

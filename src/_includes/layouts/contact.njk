@@ -1,0 +1,54 @@
+{% extends "base.njk" %}
+
+{% block content %}
+
+    <section class="site-contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5">
+            <h1 class="site-contact-title">
+              {{title}}<span>{{subTitle}}</span>
+            </h1>
+          </div>
+          <div class="col-lg-6 ml-auto">
+            <div class="site-contact-form">
+              <h4>{{formTitle}}</h4>
+              <form method="POST" action="https://fabform.io/f/MJXGiFv">
+                <div class="row">
+                  <div class="col-lg-6">
+                    <input type="text" class="form-control" name="first-name" id="first-name" placeholder="First Name">
+                  </div>
+                  <div class="col-lg-6">
+                    <input type="text" class="form-control" name="last-name" id="last-name" placeholder="Last Name">
+                  </div>
+                  <div class="col-lg-6">
+                    <input type="email" class="form-control" name="email" id="email" placeholder="Email">
+                  </div>
+                  <div class="col-lg-6">
+                    <input type="text" class="form-control" name="organization" id="organization" placeholder="Organization">
+                  </div>
+                  <div class="col-12">
+                    <textarea type="text" class="form-control" id="email-text" name = "email-text" rows="6" placeholder="What is on your mind?"></textarea>
+                  </div>
+                  <div class="col-12">
+                    <button type="submit" class="btn btn-primary" formtarget="_blank">
+                      <span class="btn-area">
+                        <span data-text="{{btnText}}">
+                          {{btnText}}
+                        </span>
+                      </span>
+                    </button>
+                  </div>
+                </div>
+              </form>
+              <p class="contact-form-generator mt-3">
+                <strong>** </strong><a href="https://fabform.io/" target="_blank">Static website forms</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+{% endblock %}
+{% block workTogether %}{% endblock %}
