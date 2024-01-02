@@ -563,7 +563,7 @@ textarea.form-control {
   margin-bottom: 30px;
 }
 .site-project-single-image img {
-  width: 48%;
+  width: 100%;
 }
 .site-project-single-image img:nth-child(2n) {
   margin-left: auto;
@@ -1032,7 +1032,7 @@ textarea.form-control {
 
 .site-footer {
   background: #ADD6D2;
-  padding: 100px 0;
+  padding: 50px 0;
 }
 .site-footer-logo {
   margin-bottom: 50px;
