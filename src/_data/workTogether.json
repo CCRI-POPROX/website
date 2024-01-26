@@ -1,0 +1,11 @@
+{
+  "heading":"LET’S WORK TOGETHER",
+  "submitBtn":{
+    "btnText":"Sign Up to be notified when we release",
+    "btnLink":"https://groups.google.com/a/umn.edu/g/poprox-announce/"
+  },
+  "convBtn":{
+    "btnText":"Contact our team",
+    "btnLink":"about"
+  }
+}

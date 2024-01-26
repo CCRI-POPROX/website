@@ -1,0 +1,13 @@
+---
+subTitle: "" 
+title: "Impact"
+img: "/assets/images/projects/project-thumb-three.jpg"
+linkText: "Read More"
+featureImg1: "/assets/images/projects/being-a-journalist.jpg"
+featureImg2: ""
+---
+<b>Broader Impacts</b> <br>
+The domain of news is particularly important—not just as an interesting topic for natural language processing and automated recommendation, but also as a critical tool for an educated citizenry. By creating a platform to study news recommendation, we can support systematic study of how such systems can help readers become well-informed, and conversely of how such systems can cause harm. While first priority will go to computing researchers, we know there is interest (and we expect capacity) for experimentation by researchers in related social science and journalism fields.
+Identified users include researchers in groups underrepresented in computing. The construction of this infrastructure will provide extensive training and support for graduate students, including in two EPSCoR states. Other BPC impact will be made in coordination with departmental BPC plans, including hosting students for REU summer site research.   
+
+The proposed infrastructure would have four main sets of broader impacts: (a) provision of infrastructure to support a wide range of research not only in recommender systems, but in AI and IR more broadly, and into areas of social science; (b) demonstration of the feasibility of infrastructure for controlled online field experiments with components that could be reused in the development of further such infrastructures; (c) support of research on news personalization, a socially important problem in an era of “fake news” and significant challenges associated with imbalance in the presentation of news through social media and online sources; (d) support for research projects from a substantial number of investigators from groups underrepresented in computing including women, African-American, and Latinx-American researchers at US Universities; (e) research training for graduate students, including students in two EPSCoR states (South Carolina and Idaho) by PIs with a history of successfully training students from underrepresented groups; and (f) additional impact will be made in coordination with departmental BPC plans: for example, under the UMN BPC plan we will host students from groups underrepresented in computing for REU summer site research and participate in broader outreach.
