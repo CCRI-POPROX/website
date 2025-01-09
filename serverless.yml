@@ -4,6 +4,8 @@ useDotenv: true
 
 plugins:
   - serverless-s3-deploy
+  - serverless-cloudfront-invalidate # add as the last plugin
+
 
 custom:
   assets:
@@ -14,6 +16,12 @@ custom:
         files:
         - source: _site/
           globs: '**/*'
+
+  cloudfrontInvalidate:
+    - distributionId: "E2VGE51RMH5HZZ" 
+      autoInvalidate: true # Can be set to false to avoid automatic invalidation after the deployment. Useful if you want to manually trigger the invalidation later. Defaults to true.
+      items: # one or more paths required
+        - "/*"
 
 
 
