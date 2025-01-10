@@ -3,7 +3,7 @@ name: Deploy master branch
 on:
   push:
     branches:
-      - kluver/feature/automatically_deploy_on_commit
+      - main
 
 jobs:
   deploy:
